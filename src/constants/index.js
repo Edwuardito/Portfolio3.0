@@ -5,11 +5,17 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `¡Hola! Soy Edwin Rodríguez García, Desarrollador Front End especializado en React y Taildwind.
 `;
+export const HERO_CONTENT_EN = `Hello! I am Edwin Rodríguez García, Front End Developer specialized in React and Taildwind.
+`;
 
 export const ABOUT_TEXT = ` 
 Llevo más de un año programando como frontend, durante ese periodo utilicé React, TypeScript, Node, Figma, Bootstrap y Chart.js.
 Tengo bases sólidas en Bases de Datos como PostgresSQL. Actualmento trabajo como vendedor, Estudio Ingles y programo en los tiempos Libres.
 Mis pasatiempos favoritos son: El Gimnasio, cocinar y ver series`;
+export const ABOUT_TEXT_EN = ` 
+I have been programming as a frontend for more than a year, during that period I used React, TypeScript, Node, Figma, Bootstrap and Chart.js.
+I have solid foundations in Databases such as PostgresSQL. I currently work as a salesperson, study English and program in my free time.
+My favorite hobbies are: The gym, cooking and watching series`;
 
 export const EXPERIENCES = [
   {
@@ -17,6 +23,7 @@ export const EXPERIENCES = [
     role: "Front End Developer para un MVP",
     company: "Andromeda",
     description: `Realice diseños de paneles gráficos en Figma para Andrómeda, Basándome en diseño minimalista, tuve en cuenta la Experiencia de Usuario y el diseño para dispositivos móviles.`,
+    description_en: `I made graphic panel designs in Figma for Andromeda. Based on minimalist design, I took into account the User Experience and the design for mobile devices.`,
     technologies: ["Javascript", "React.js", "Taildwind", "chart.js"],
   }
 ];
@@ -25,8 +32,8 @@ export const PROJECTS = [
   {
     title: "BrainWave Website",
     image: project1,
-    description:
-      "Una pagina para una IA que resuelve todas tus dudas, en este prototipo de landing demuestro de lo que soy capaz como frontend developer",
+    description:"Una pagina para una IA que resuelve todas tus dudas, en este prototipo de landing demuestro de lo que soy capaz como frontend developer",
+    description_en:"A page for an AI that solves all your doubts, in this landing prototype I demonstrate what I am capable of as a frontend developer",
     technologies: ["HTML", "CSS", "React", "Node.js", "Taildwind"],
   }
 ];

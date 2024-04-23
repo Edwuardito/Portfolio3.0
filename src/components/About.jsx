@@ -1,7 +1,7 @@
 import aboutImg from "../assets/about1.jpg"
-import { ABOUT_TEXT } from "../constants"
+import { ABOUT_TEXT, ABOUT_TEXT_EN } from "../constants"
 import { motion } from "framer-motion"
-const About = () => {
+const About = ({lenguage}) => {
   return (
     <div className="border-b border-neutral-900 pb-4">
         <h1 className="my-20 text-center text-4xl">
@@ -24,7 +24,7 @@ const About = () => {
                 transition={{ duration: 0.5 }}
             >
                 <div className="flex justify-center lg:justify-start">
-                    <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+                    <p className="my-2 max-w-xl py-6">{lenguage == 'es'? ABOUT_TEXT : ABOUT_TEXT_EN}</p>
                 </div>
             </motion.div>
         </div>

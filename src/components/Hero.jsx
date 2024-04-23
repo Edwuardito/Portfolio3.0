@@ -1,4 +1,4 @@
-import { HERO_CONTENT } from "../constants"
+import { HERO_CONTENT, HERO_CONTENT_EN } from "../constants"
 import profilePic from "../assets/edwin1.png"
 import {motion} from "framer-motion"
 
@@ -11,7 +11,8 @@ const container = (delay) => ({
     }
 })
 
-const Hero = () => {
+const Hero = ({lenguage}) => {
+    console.log(lenguage)
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35 px-20">
         <div className="flex flex-wrap">
@@ -52,7 +53,7 @@ const Hero = () => {
                         animate="visible"
                         className="my-2 max-w-xl text-xl py-6 font-light tracking-tighter"
                     >
-                        {HERO_CONTENT}
+                        {lenguage == 'es'? HERO_CONTENT : HERO_CONTENT_EN}
                     </motion.p>
                 </div>
             </div>
