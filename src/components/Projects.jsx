@@ -33,7 +33,7 @@ const Projects = () => {
                                 <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900">{tech}</span>
                             ))
                         }
-                        <a href="https://frontpagebyedu.netlify.app">
+                        <a href="https://frontpagebyedu.netlify.app" target="_blank">
                             <button className="ml-10  px-2 bg-purple-900 rounded text-white">Visitar</button>
                         </a>
                     </motion.div>
