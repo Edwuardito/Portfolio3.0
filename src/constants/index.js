@@ -29,6 +29,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "BrainWave Website",
+    link: "https://frontpagebyedu.netlify.app",
     image: project1,
     description:"Una pagina para una IA que resuelve todas tus dudas, en este prototipo de landing demuestro de lo que soy capaz como frontend developer",
     description_en:"A page for an AI that solves all your doubts, in this landing prototype I demonstrate what I am capable of as a frontend developer",
@@ -36,6 +37,7 @@ export const PROJECTS = [
   },
   {
     title: "Paris Shop Website",
+    link: "https://tiendaparis.netlify.app",
     image: project2,
     description:"Una pagina hecha para el catalogo de una tienda de ropa, que cuenta con dashboard donde actualizar productos, precios y categorias",
     description_en:"A page made for the catalog of a clothing store, which has a dashboard where you can update products, prices and categories",
