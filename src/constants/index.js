@@ -1,7 +1,5 @@
 import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project2 from "../assets/projects/paris.png";
 
 export const HERO_CONTENT = `¡Hola! Soy Edwin Rodríguez García, Desarrollador Front End especializado en React y Taildwind.
 `;
@@ -35,6 +33,13 @@ export const PROJECTS = [
     description:"Una pagina para una IA que resuelve todas tus dudas, en este prototipo de landing demuestro de lo que soy capaz como frontend developer",
     description_en:"A page for an AI that solves all your doubts, in this landing prototype I demonstrate what I am capable of as a frontend developer",
     technologies: ["HTML", "CSS", "React", "Node.js", "Taildwind"],
+  },
+  {
+    title: "Paris Shop Website",
+    image: project2,
+    description:"Una pagina hecha para el catalogo de una tienda de ropa, que cuenta con dashboard donde actualizar productos, precios y categorias",
+    description_en:"A page made for the catalog of a clothing store, which has a dashboard where you can update products, prices and categories",
+    technologies: ["HTML", "CSS", "React", "Node.js", "Taildwind","Vite"],
   }
 ];
 
