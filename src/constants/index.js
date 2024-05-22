@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/paris.png";
+import project3 from "../assets/projects/starwars.png";
 
 export const HERO_CONTENT = `¡Hola! Soy Edwin Rodríguez García, Desarrollador Front End especializado en React y Taildwind.
 `;
@@ -41,6 +42,14 @@ export const PROJECTS = [
     image: project2,
     description:"Una pagina hecha para el catalogo de una tienda de ropa, que cuenta con dashboard donde actualizar productos, precios y categorias",
     description_en:"A page made for the catalog of a clothing store, which has a dashboard where you can update products, prices and categories",
+    technologies: ["HTML", "CSS", "React", "Node.js", "Taildwind","Vite"],
+  },
+  {
+    title: "Star Wars Challenge",
+    link: "https://starwarchallengebyedu.netlify.app",
+    image: project3,
+    description:"Es una app sobre las peliculas y personajes de la famosa saga de star wars",
+    description_en:"It is an app about the movies and characters of the famous Star Wars saga.",
     technologies: ["HTML", "CSS", "React", "Node.js", "Taildwind","Vite"],
   }
 ];
