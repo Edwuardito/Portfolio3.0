@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/paris.png";
-import project3 from "../assets/projects/starwars.png";
+import project3 from "../assets/projects/movie.jpg";
 
 export const HERO_CONTENT = `¡Hola! Soy Edwin Rodríguez García, Desarrollador Front End especializado en React y Taildwind.
 `;
